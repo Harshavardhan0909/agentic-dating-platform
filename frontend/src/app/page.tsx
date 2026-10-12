@@ -1,3 +1,5 @@
+"use client";
+
 import { useEffect, useState } from "react";
 
 type Persona = { id:string; name:string; vibe_summary:string; hobbies:string[]; intellectual_style:string; dealbreakers:string[]; avatar_url:string };
